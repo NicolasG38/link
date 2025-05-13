@@ -3,3 +3,99 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+
+  --white: #FDFDFD;
+  --black: #333;
+
+  --anthracite:#333;
+  --eerieBlack:#23211E;
+  --dun:#dac5a7;
+  --dun2:#e6d1b3;
+  --khaki:#c8b395;
+  --beaver:#9f8170;
+  --beaver2:#8D806C;
+  --gray:#7c7567;
+  --coffee:#7d583f;
+  --battleshipGray:#888888;
+}
+
+@font-face {
+  font-family: "Alegreya Sans SC";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--dun);
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  height: 100vh;
+  width: 100vw;
+}
+h1{
+  color: var(--dun);
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.headerSection{
+display: flex;
+justify-content: center;
+align-items: center;
+  height: 10vh;
+}
+
+.logo{
+  height: 8vw;
+}
+
+.linkSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.linkListSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.linkListItem{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  height: 60px;
+  list-style: none;
+  margin: 10px auto;
+  background-color: var(--black);
+  border: 0.25px solid var(--dun);
+  border-radius: 15px;
+  &:hover{
+    scale: 1.1;
+    background-color: #434343;
+  }
+}
+
+.link{
+  width: 36px;
+}
+.linkText{
+  font-size: 1.2rem;
+  font-weight: 800;
+  color:var(--dun);
+}
