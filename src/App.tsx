@@ -1,7 +1,9 @@
 import './App.css'
+
 import Link from "./components/Link.tsx";
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
+import MixOfTheMonth from "./components/MixOfTheMonth.tsx";
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
         </header>
         <main>
           <Link />
+            <MixOfTheMonth />
         </main>
         <footer className={"footerClass"}>
           <Footer />
