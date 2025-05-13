@@ -4,7 +4,7 @@ function Header() {
     return(
         <>
             <section className={"headerSection"}>
-                <img src={"src/assets/Logo_dark.png"} alt={"logo"} className={"logo"} />
+                <img src={"./src/assets/Logo_dark.png"} alt={"logo"} className={"logo"} />
             </section>
         </>
     )
