@@ -35,7 +35,7 @@ function Link(){
     ]
 
 const socialMap= social.map((item) => (
-    <a href={item.url} key={item.key}>
+    <a href={item.url} key={item.key} target={"_blank"}>
         <li className={"linkListItem"}>
             <img src={item.icon} alt={"logo"} className={"link"} />
             <p className={"linkText"}>{item.title}</p>
