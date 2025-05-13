@@ -35,10 +35,12 @@ function Link(){
     ]
 
 const socialMap= social.map((item) => (
-    <li className={"linkListItem"}>
-        <img src={item.icon} alt={"logo"} className={"link"} />
-        <p className={"linkText"}>{item.title}</p>
-    </li>
+    <a href={item.url} key={item.key}>
+        <li className={"linkListItem"}>
+            <img src={item.icon} alt={"logo"} className={"link"} />
+            <p className={"linkText"}>{item.title}</p>
+        </li>
+    </a>
 ))
     return (
         <>

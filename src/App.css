@@ -92,7 +92,6 @@ align-items: center;
     background-color: #434343;
   }
 }
-
 .link{
   width: 36px;
   margin: 0 0rem 0 6rem;
@@ -103,7 +102,6 @@ align-items: center;
   color:var(--dun);
   margin: 0 0 0 3rem;
 }
-
 .youtubeVideo{
   width: 90vw;
   height: 23.5vh;
@@ -132,4 +130,17 @@ align-items: center;
 .pfooter{
   color: var(--coffee);
   margin:0 .5rem .5rem 0;
+}
+
+@media screen and (min-width: 768px){
+    .logo{
+      height: 4vw;
+    }
+    .link{
+      width: 36px;
+      margin: 0 0 0 40vw;
+    }
+  .youtubeVideo{
+    height: 75vh;
+  }
 }
