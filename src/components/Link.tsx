@@ -5,31 +5,31 @@ function Link(){
         {
             title: "LINKEDIN",
             url: "https://www.linkedin.com/in/nicolasgirard38/",
-            icon:"src/assets/social/linkedIn.svg",
+            icon:"./public/assets/social/linkedIn.svg",
             key : 1,
         },
         {
             title: "BLUESKY",
             url: "https://bsky.app/profile/thelazyagency.bsky.social",
-            icon:"src/assets/social/bluesky.svg",
+            icon:"./public/assets/social/bluesky.svg",
             key : 2,
         },
         {
             title: "INSTAGRAM",
             url: "https://www.instagram.com/thelazyagency/",
-            icon:"src/assets/social/instagram.svg",
+            icon:"./public/assets/social/instagram.svg",
             key : 3,
         },
         {
             title: "THREADS",
             url: "https://www.threads.com/@thelazyagency",
-            icon:"src/assets/social/threads.svg",
+            icon:"./public/assets/social/threads.svg",
             key : 4,
         },
         {
             title: "GITHUB",
             url: "https://github.com/NicolasG38",
-            icon:"src/assets/social/github.svg",
+            icon:"./public/assets/social/github.svg",
             key : 5,
         },
     ]
